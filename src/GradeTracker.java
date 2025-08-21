@@ -8,8 +8,8 @@ public class GradeTracker {
         students = new ArrayList<>();
     }
 
-    public void addStudent(String name, int grade) {
-        students.add(new Student(name, grade));
+    public void addStudent(int id,String name, int grade) {
+        students.add(new Student(id,name, grade));
     }
 
     public int averageGrade() {

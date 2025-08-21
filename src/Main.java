@@ -17,7 +17,7 @@ public class Main {
                     String name = input.nextLine();
                     System.out.print("Enter grade: ");
                     int grade = input.nextInt();
-                    gradeTracker.addStudent(name, grade);
+                    gradeTracker.addStudent(0, name, grade);
                     System.out.println("Success");
                     break;
                 case 2:
